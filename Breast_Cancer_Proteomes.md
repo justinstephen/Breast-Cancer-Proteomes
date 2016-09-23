@@ -92,4 +92,34 @@ summary(samples)
     ##  Max.   :4.000                Max.   :5.000                  
     ## 
 
-There are 105 samples with 30 different features. \* Complete.TCGA.ID: The ID of the sample \* Gender \* Age.at.Initial.Pathologic.Diagnosis \* ER.Status: \* PR.Status \* HER2.Final.Status \* Tumor \* Tumor..T1.Coded \* Node \* Node.Coded \* Metastasis \* Metastasis.Coded \* AJCC.Stage \* Converted.Stage \* Survival.Data.Form \* Vital.Status \* Days.to.Date.of.Last.Contact \* Days.to.date.of.Death \* OS.event \* OS.Time \* PAM50.mRNA \* SigClust.Unsupervised.mRNA \* SigClust.Intrinsic.mRNA \* miRNA.Clusters \* methylation.Clusters \* RPPA.Clusters \* CN.Clusters \* Integrated.Clusters..with.PAM50. \* Integrated.Clusters..no.exp. \* Integrated.Clusters..unsup.exp.
+There are 105 samples with 30 different features. 
+* Complete.TCGA.ID: The ID of the sample 
+* Gender 
+* Age.at.Initial.Pathologic.Diagnosis
+* ER.Status:
+* PR.Status
+* HER2.Final.Status
+* Tumor
+* Tumor..T1.Coded
+* Node
+* Node.Coded
+* Metastasis
+* Metastasis.Coded
+* AJCC.Stage
+* Converted.Stage
+* Survival.Data.Form
+* Vital.Status
+* Days.to.Date.of.Last.Contact
+* Days.to.date.of.Death
+* OS.event
+* S.Time
+* PAM50.mRNA
+* SigClust.Unsupervised.mRNA
+* SigClust.Intrinsic.mRNA
+* miRNA.Clusters
+* methylation.Clusters
+* RPPA.Clusters
+* CN.Clusters
+* Integrated.Clusters..with.PAM50.
+* Integrated.Clusters..no.exp.
+* Integrated.Clusters..unsup.exp.
