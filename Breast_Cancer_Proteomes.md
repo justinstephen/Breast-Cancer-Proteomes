@@ -93,33 +93,33 @@ summary(samples)
     ## 
 
 There are 105 samples with 30 different features. 
-* Complete.TCGA.ID: The ID of the sample 
-* Gender 
-* Age.at.Initial.Pathologic.Diagnosis
-* ER.Status: Estrogen Receptor Status
-* PR.Status: Progesterone Receptor Status
-* HER2.Final.Status: Human Epidermal Growth Factor-2
-* Tumor: Factors of the size of the Tumor (T1, T2, T3, T4)
-* Tumor..T1.Coded: Coded for just T1 tumors
-* Node: Factor of how far the cancer has spread to nearby nodes with N0 indicating no spread. (N0, N1, N2, N4)
-* Node.Coded: Negative indicates N0 (no spread), Positive indicates N1-N3.
-* Metastasis: Factor indicating if cancer has spread to other parts of the body. M0 indicates no distant metastatis, M1 indicates Distant metastasis
-* Metastasis.Coded: Negative indicates M0, Positive indicates M1
-* AJCC.Stage: Factors of the stage of the concers. This is determined by combining the T, N, and M categories.
-* Converted.Stage
-* Survival.Data.Form: 
-* Vital.Status: 
-* Days.to.Date.of.Last.Contact
-* Days.to.date.of.Death
-* OS.event
-* S.Time
-* PAM50.mRNA
-* SigClust.Unsupervised.mRNA
-* SigClust.Intrinsic.mRNA
-* miRNA.Clusters
-* methylation.Clusters
-* RPPA.Clusters
-* CN.Clusters
-* Integrated.Clusters..with.PAM50.
-* Integrated.Clusters..no.exp.
-* Integrated.Clusters..unsup.exp.
+* **Complete.TCGA.ID**: The ID of the sample 
+* **Gender**:
+* **Age.at.Initial.Pathologic.Diagnosis**:
+* **ER.Status**: Estrogen Receptor Status
+* **PR.Status**: Progesterone Receptor Status
+* **HER2.Final.Status**: Human Epidermal Growth Factor-2
+* **Tumor**: Factors of the size of the Tumor (T1, T2, T3, T4)
+* **Tumor..T1.Coded**: Coded for just T1 tumors
+* **Node**: Factor of how far the cancer has spread to nearby nodes with N0 indicating no spread. (N0, N1, N2, N4)
+* **Node.Coded**: Negative indicates N0 (no spread), Positive indicates N1-N3.
+* **Metastasis**: Factor indicating if cancer has spread to other parts of the body. M0 indicates no distant metastatis, M1 indicates Distant metastasis
+* **Metastasis.Coded**: Negative indicates M0, Positive indicates M1
+* **AJCC.Stage**: Factors of the stage of the concers. This is determined by combining the T, N, and M categories.
+* **Converted.Stage**
+* **Survival.Data.Form**: 
+* **Vital.Status**: 
+* **Days.to.Date.of.Last.Contact**
+* **Days.to.date.of.Death**
+* **OS.event**
+* **S.Time**
+* **PAM50.mRNA**
+* **SigClust.Unsupervised.mRNA**
+* **SigClust.Intrinsic.mRNA**
+* **miRNA.Clusters**
+* **methylation.Clusters**
+* **RPPA.Clusters**
+* **CN.Clusters**
+* **Integrated.Clusters..with.PAM50.**
+* **Integrated.Clusters..no.exp.**
+* **Integrated.Clusters..unsup.exp.**
