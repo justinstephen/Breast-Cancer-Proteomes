@@ -1,0 +1,29 @@
+---
+title: "Breast Cancer K Means"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(class)
+library(caret)
+```
+
+Read in all the datasets:
+
+```{r Read Data}
+proteomes <- as.data.frame(read.csv("./data/77_cancer_proteomes_CPTAC_itraq.csv", header = TRUE, stringsAsFactors=FALSE))
+samples <- as.data.frame(read.csv("./data/clinical_data_breast_cancer.csv", header = TRUE))
+pam50 <- as.data.frame(read.csv("./data/PAM50_proteins.csv", header = TRUE))
+```
+
+Clean up the data:
+
+```{r Clean Data}
+proteomes <- proteomes[,-c(2,3,(ncol(proteomes)-2):ncol(proteomes))]
+
+colnames(proteomes) <-  substr(names(proteomes),1,7)
+samples$Complete.TCGA.ID <- substr(samples$Complete.TCGA.ID,6,12)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
